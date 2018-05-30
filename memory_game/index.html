@@ -28,16 +28,37 @@
             in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object
             of the game is to turn over pairs of matching cards.</p>
         <br>
-        <div>
+        <div id="game-board" class="board clearfix"></div>
+        <!-- <div>
             <img src="images/back.png" alt="Queen of Diamonds">
             <img src="images/back.png" alt="Queen of Hearts">
             <img src="images/back.png" alt="King of Diamonds">
             <img src="images/back.png" alt="King of Hearts">
-        </div>
+        </div> -->
+        <!-- <div>
+            <input type="text">
+            <button>Add Task</button>
+            <ul id="todo-list"></ul>
+        </div> -->
     </main>
+    <br>
     <footer class="clearfix">
            <p class="copyright">Copyright 2017</p><p class="message">Created with &hearts; by <span class="name">GA</span></p> 
     </footer>
     <script src="../memory_game/js/main.js"></script>
+    <!-- <script type="text/javascript">
+    function addItem() {
+    var input = document.getElementsByTagName('input')[0];
+    var newItemText = input.value;
+    var newItem = document.createElement("li");
+    newItem.innerHTML = newItemText;
+    
+    document.getElementById('todo-list').appendChild(newItem);
+    
+    }
+  
+    document.getElementsByTagName('button')[0].addEventListener('click', addItem);
+
+    </script> -->
 </body>
 </html>
